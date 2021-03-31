@@ -1,0 +1,24 @@
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+}
+
+.highlighted {
+    width: 30%;
+    height: 80%;
+}
+
+.main {
+    padding: 10px;
+    width: 70%;
+    height: 80%;
+}
+
+.header div {
+    padding: 20px;
+    width: 70%;
+}

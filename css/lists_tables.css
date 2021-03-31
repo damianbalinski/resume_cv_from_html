@@ -1,0 +1,67 @@
+/* LISTS */
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0 15px 5px;
+    font-size: 13px;
+}
+
+li.title {
+    padding: 0 15px 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+li.empty {
+    padding: 0 15px 5px;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+/* COLUMNS */
+.columns2 {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.columns3 {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+
+/* TABLES */
+table {
+    padding: 0 15px;
+}
+
+tr {
+}
+
+td {
+    padding: 0 0 5px;
+    text-align: left;
+}
+
+td.vertical p {
+    writing-mode: tb-rl;
+    transform: rotate(180deg);
+    font-size: 20px;
+    font-weight: bold;
+    color: #4a89dc;
+
+}
+
+td.line {
+    border-top: 5px solid rgb(243, 243, 243);
+}
+
+th {
+    padding: 0 0 5px;
+    font-weight: bold;
+    text-align: left;
+}

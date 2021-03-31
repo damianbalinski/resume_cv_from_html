@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+html {
+    background: #fff;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    color: #434a54;
+
+    /* FONTS */
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}

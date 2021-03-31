@@ -1,0 +1,26 @@
+.shadow-none {
+}
+
+.shadow-custom {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.shadow-custom2 {
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.shadow-custom3 {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.shadow-custom4 {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.shadow-custom5 {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.shadow-mac {
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+}
