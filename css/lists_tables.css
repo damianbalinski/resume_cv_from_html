@@ -3,9 +3,34 @@ ul {
     list-style: none;
 }
 
+ul.bullets {
+    padding-left: 40px;
+    list-style: disc;
+    list-style-position: outside;
+}
+
 li {
     padding: 0 15px 5px;
     font-size: 13px;
+}
+ul.bullets p {
+    position: relative;
+    left: -18px;
+    bottom: 5.5px;
+    padding: 0 15px 5px;
+    font-weight: bold;
+}
+
+ul.bullets li::marker {
+    color: #f5f5f5;
+    /* color: #367cd8; */
+    font-size: 30px;
+}
+
+ul.bullets li span {
+    position: relative;
+    left: -18px;
+    bottom: 5px;
 }
 
 li.title {
@@ -76,4 +101,13 @@ td.padding-bottom{
 
 .padding-left{
     padding-right: 20px!important;
+}
+
+/* NEW TABLE */
+.table {
+    display: flex;
+}
+
+.column {
+    
 }
