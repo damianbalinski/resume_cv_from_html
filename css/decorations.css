@@ -1,0 +1,10 @@
+/* LINES */
+div.hr-solid-gray {
+    border-top: 5px solid rgb(243, 243, 243);
+}
+
+div.hr-solid-blue {
+    padding: 0;
+    width: 100%;
+    border-top: 6px solid #3a7bd1;
+}

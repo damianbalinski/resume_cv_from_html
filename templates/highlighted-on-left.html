@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="../css/images.css">
     <link rel="stylesheet" href="../css/colors.css">
     <link rel="stylesheet" href="../css/lists_tables.css">
+    <link rel="stylesheet" href="../css/decorations.css">
     <link rel="stylesheet" href="../css/main.css">
 
 </head>
@@ -31,10 +32,15 @@
 
     <!-- HEADER -->
     <div class="header bkg-texture-blue">
-        <img class="image" src="../img/myimage.png" alt="">
-        <div class="white">
+        <!-- IMAGE  -->
+        <div class="img">
+            <img class="image" src="../img/myimage.png" alt="">
+        </div>
+        
+        <!-- NAME & SURNAME -->
+        <div class="white info">
             <h1>Lorem Ipsum</h1>
-            <hr>
+            <div class="hr-solid-blue"></div>
             <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, odio? Repudiandae voluptatibus, dolore pariatur blanditiis autem non sint provident. Sed eum minima necessitatibus qui dolorum est, voluptates assumenda facilis modi!
             </h4>
         </div>
@@ -99,34 +105,40 @@
         <!-- PROGRAMMING LANGUAGES -->
         <section class="border-none shadow-none white">
             <h3 class="title-shadow">Programming languages</h3>
-            <ul class="bullets columns2">
-                
-                <p>BACKEND</p>
-                <li><span>C</span></li>
-                <li><span>C+</span></li>
-                <li><span>C++</span></li>
-                <li><span>C+++</span></li>
-                <li><span>C#</span></li>
-                <li><span>C##</span></li>
-                <li><span>C###</span></li>
-                <li><span>Java</span></li>
-                <li><span>Javaa</span></li>
-                <li><span>Javaaa</span></li>
-                <li><span>Javaaaa</span></li>
-                
-                <p>FRONTEND</p>
-                <li><span>HTML</span></li>
-                <li><span>CSS</span></li>
-                <li><span>JS</span></li>
-                <br>
+            
+            <div class="table" style="margin-top: 30px;">
+                <!-- FIRST COLUMN -->
+                <ul class="bullets bullets-blue column">
+                    <p>BACKEND</p>
+                    <li><span>C</span></li>
+                    <li><span>C+</span></li>
+                    <li><span>C++</span></li>
+                    <li><span>C+++</span></li>
+                    <li><span>C#</span></li>
+                    <li><span>C##</span></li>
+                    <li><span>C###</span></li>
+                    <li><span>Java</span></li>
+                    <li><span>Javaa</span></li>
+                    <li><span>Javaaa</span></li>
+                    <li><span>Javaaaa</span></li>
+                </ul>
 
-                <p>OTHERS</p>
-                <li><span>Bash</span></li>
-                <li><span>LaTeX</span></li>
-                <li><span>Mathematica</span></li>
-                <li><span>Markdown</span></li>
-                <br><br>
-            </ul>
+                <!-- SECOND COLUMN -->
+                <ul class="bullets bullets-blue column">
+                    <p>FRONTEND</p>
+                    <li><span>HTML</span></li>
+                    <li><span>CSS</span></li>
+                    <li><span>JS</span></li>
+                    <br><br><br>
+    
+                    <p>OTHERS</p>
+                    <li><span>Bash</span></li>
+                    <li><span>LaTeX</span></li>
+                    <li><span>Mathematica</span></li>
+                    <li><span>Markdown</span></li>
+                    <br><br>
+                </ul>
+            </div>
         </section>
 
         <!-- RODO -->
@@ -163,7 +175,9 @@
                     </ul></td>
                 </tr>
                 
-                <tr><td colspan="100%" class="line"></td></tr>
+                <tr><td colspan="100%">
+                    <div class="hr-solid-gray"></div>
+                </td></tr>
 
                 <tr>
                     <td class="vertical"><p>MAT</p></td>
@@ -182,49 +196,85 @@
         <!-- PROJECTS -->
         <section class="border-none shadow-custom5">
             <h3>Projects</h3>
-                <table style="width: 80%;">
-                    <tr>
-                      <th><a href="">MySpaghetti</a></th>
-                      <td>Java, OpenGL</td>
-                      <td><a href="">git.io/qwerty</a></td>
-                    </tr>
 
-                    <tr><td colspan="3"><p class="small-no-padding">Spaghetti Coding Competition</p></td></tr>
-                    
-                    <tr>
-                        <th><a href="">GoGame</a></th>
-                        <td>Java, Swing, MySQL</td>
-                        <td><a href="">git.io/qwerty</a></td>
-                    </tr>
+            <table style="width: 100%;">
+                <tr>
+                    <th><a href="">GoGame</a></th>
+                    <td>Java, Swing, MySQL</td>
+                    <td class="align-right"><a href="">
+                        git.io/qwerty
+                        <i class="medium fas fa-external-link-alt"></i>
+                    </a></td>
+                </tr>
 
-                    <tr><td colspan="3"><p class="small-no-padding">Spaghetti Coding Competition</p></td></tr>
+                <tr><td colspan="3">
+                    <p class="small-no-padding">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid sed natus cupiditate?</p>
+                </td></tr>
 
-                    <tr>
-                        <th><a href="">PingPong</a></th>
-                        <td>C++, C, Ada</td>
-                        <td><a href="">git.io/qwerty</a></td>
-                    </tr>
+                <tr>
+                    <th><a href="">JavaJava</a></th>
+                    <td>Java, Swing, MySQL</td>
+                    <td class="align-right"><a href="">
+                        git.io/qwerty
+                        <i class="medium fas fa-external-link-alt"></i>
+                    </a></td>
+                </tr>
 
-                    <tr><td colspan="3"><p class="small-no-padding">Spaghetti Coding Competition</p></td></tr>
-                </table>
+                <tr><td colspan="3">
+                    <p class="small-no-padding">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid sed natus cupiditate?</p>
+                </td></tr>
+
+                <tr>
+                    <th><a href="">PingPong</a></th>
+                    <td>C++, C, Ada</td>
+                    <td class="align-right"><a href="">
+                        git.io/qwerty
+                        <i class="medium fas fa-external-link-alt"></i>
+                    </a></td>
+                </tr>
+
+                <tr><td colspan="3">
+                    <p class="small-no-padding">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid sed natus cupiditate?</p>
+                </td></tr>
+
+            </table>
         </section>
         
         <!-- TOOLS -->
         <section class="border-none shadow-custom5">
             <h3>Tools</h3>
-            <ul class="bullets columns2">
-                <li><span>git | svn</span></li>
-                <li><span>Maven | Gradle</span></li>
-                <li><span>flex | bison</span></li>
-                <li><span>Linux | Bash</span></li>
-                <li><span>openGL | webGL</span></li>
-                <li><span>UML | EIP</span></li>
-                <li><span>relational databases</span></li>
-                <li><span>programming patterns</span></li>
-                <li><span>unit tests</span></li>
-                <li><span>algorithms and data structures</span></li>
-                <br>
-            </ul>
+
+            <div class="table">
+
+                <!-- FIRST COLUMN -->
+                <ul class="bullets column">
+                    <li><span>git</span></li>
+                    <li><span>Maven</span></li>
+                    <li><span>flex</span></li>
+                    <li><span>Linux</span></li>
+                    <li><span>openGL</span></li>
+                    <li><span>UML</span></li>
+                </ul>
+                
+                <!-- SECOND COLUMN -->
+                <ul class="bullets column">
+                    <li><span>svn</span></li>
+                    <li><span>Gradle</span></li>
+                    <li><span>bison</span></li>
+                    <li><span>Bash</span></li>
+                    <li><span>webGL</span></li>
+                    <li><span>EIP</span></li>
+                </ul>
+
+                <!-- THIRD COLUMN -->
+                <ul class="bullets column">
+                    <li><span>relational databases</span></li>
+                    <li><span>programming patterns</span></li>
+                    <li><span>unit tests</span></li>
+                    <li><span>algorithms and data structures</span></li>
+                </ul>
+            </div>
+
         </section>
     </div>
 </body>
