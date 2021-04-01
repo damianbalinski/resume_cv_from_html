@@ -16,3 +16,6 @@
 }
 
 /* TEXTURE BACKGROUND */
+.bkg-texture-blue {
+    background-image: url('../img/textures/blue1.png');
+}

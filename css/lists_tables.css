@@ -65,3 +65,15 @@ th {
     font-weight: bold;
     text-align: left;
 }
+
+td.padding-top{
+    padding-top: 10px;
+}
+
+td.padding-bottom{
+    padding-bottom: 10px;
+}
+
+.padding-left{
+    padding-right: 20px!important;
+}
