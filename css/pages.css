@@ -3,6 +3,6 @@
     width: 21cm;
     height: 29.7cm;
     margin: 0 auto;
-    overflow: hidden;
+    overflow: scroll;
     font-size: 0;
 }
