@@ -10,7 +10,7 @@
 
 
 ## About The Project
-Resume&CV is simple tool for generating PDF document based on HTML/CSS templates. Take advantage of using one of many [templates](/templates) and stylize it with predefined CSS [styles](/css) or make your own. Currently you can find ready-to-use CSS class for
+**Resume&CV** is a simple tool for generating PDF document based on HTML/CSS templates. Take advantage of using one of many [templates](/templates) and stylize it with predefined CSS [styles](/css) or make your own. Currently you can find ready-to-use CSS class for
 [backgrounds](/css/backgrounds.css),
 [borders](/css/borders.css),
 [shadows](/css/shadows.css),
@@ -23,7 +23,7 @@ Resume&CV is simple tool for generating PDF document based on HTML/CSS templates
 ![Example of CV generated using Resume&CV](img/example_cv.png "Example of CV generated using Resume&CV")
 
 ## Why Resume&CV?
-It's **simple**. CSS is the easiest way to stylize your document to be **pleasing to eye**. Moreover, conversion HTML to PDF **keeps your hyperlinks**, so your final CV can be a bit more interactive.  
+It's **simple**. CSS is the easiest way to stylize your document to be **pleasing to eye**. Moreover, conversion to PDF from HTML **keeps your hyperlinks**, so your final CV can be a bit more interactive.  
   
 ![Fragment of html template with selected CSS classes](img/example_html.png "Fragment of html template with selected CSS classes")
 
