@@ -1,6 +1,7 @@
 /* LINES */
 div.hr-solid-gray {
     border-top: 5px solid rgb(243, 243, 243);
+    padding-bottom: 3px;
 }
 
 div.hr-solid-blue {

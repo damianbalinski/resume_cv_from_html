@@ -1,6 +1,6 @@
 /* SECTION TITLE */
 h1 {
-    padding: 15px 0;
+    padding: 7px 0 15px;
     font-size: 30px;
     text-shadow: 2px 2px 10px rgb(0 0 0 / 20%);
     text-transform: uppercase;
@@ -59,16 +59,46 @@ i {
 
 }
 
-.small {
-    font-size: 11px;
-}
-
 .medium {
     font-size: 13px;
 }
 
-.small-no-padding {
+.small {
     font-size: 11px;
-    padding: 0;
-    margin: 0 0 10px 0;
+}
+
+.tiny {
+    text-align: justify;
+    font-size: 8px;
+}
+
+
+/* PROJECTS */
+.projects {
+    padding: 0 15px;
+    font-size: 0;
+}
+
+.projects .title {
+    display: inline-block;
+    width: 30%;
+    font-weight: bold;
+}
+
+.projects .tools {
+    display: inline-block;
+    width: 30%;
+}
+
+.projects .link {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+.projects .desc {
+    display: inline-block;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-size: 11px;
 }
